@@ -4,6 +4,6 @@ provider "aws" {
   secret_key = "WczqsfRH37cORnpdgmtRS5+r6A62v5rk9CtvO1+W"
 }
 resource "aws_instance" "my-first-server" {
-  ami           = "data.aws_ami.ubuntu.id"
+  ami           = "ami-05d72852800cbf29e"
   instance_type = "t2.micro"
 }
